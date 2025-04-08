@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: #F2F6D0;
+}
+
+/* ustawić datetime-local  */
+
+.calendar-container {
+    background-color: #EFDCAB;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    position: relative;
+}
+
+.month-name {
+    margin: 0;
+    background-color: #D98324;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name {
+    font-size: 20px;
+    color: #443627;
+}
+
+.day-number {
+    font-size: 80px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.year {
+    margin: 20px 0;
+    font-size: 20px;
+    color:#443627;
+    font-weight: 500;
+}
+.first-dott {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    rotate: -45deg;
+    border-radius: 100%;
+    top: 10px;
+    right: 10px;
+    box-shadow: inset 0px 0px 9px -3px rgba(66, 68, 90, 1);
+    background-color: #F2F6D0;
+}
+.second-dott {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    rotate: -45deg;
+    border-radius: 100%;
+    top: 10px;
+    left: 10px;
+    box-shadow: inset 0px 0px 9px -3px rgba(66, 68, 90, 1);
+    background-color: #F2F6D0;
+}
+
+button {
+    background-color: #D98324;
+    font-size: 1.1rem;
+    font-family: cursive;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid #EFDCAB;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 300ms linear;
+}
+
+button:hover {
+    color: #D98324;
+    background-color: #EFDCAB;
+    border: 3px solid #D98324;
+}
